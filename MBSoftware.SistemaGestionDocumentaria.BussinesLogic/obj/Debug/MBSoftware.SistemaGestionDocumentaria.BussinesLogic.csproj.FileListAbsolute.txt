@@ -1,0 +1,15 @@
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\bin\Debug\MBSoftware.SistemaGestionDocumentaria.BussinesLogic.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\bin\Debug\MBSoftware.SistemaGestionDocumentaria.BussinesLogic.pdb
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\bin\Debug\EDOSwit.AbstraccionSP.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\bin\Debug\MBSoftware.SistemaGestionDocumentaria.Entities.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\bin\Debug\MBSoftware.SistemaGestionDocumentaria.Repository.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\bin\Debug\EDOSwit.AbstraccionSP.pdb
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\bin\Debug\MBSoftware.SistemaGestionDocumentaria.Entities.pdb
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\bin\Debug\MBSoftware.SistemaGestionDocumentaria.Repository.pdb
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\obj\Debug\MBSoftware.SistemaGestionDocumentaria.BussinesLogic.csprojResolveAssemblyReference.cache
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\obj\Debug\MBSoftware.SistemaGestionDocumentaria.BussinesLogic.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.BussinesLogic\obj\Debug\MBSoftware.SistemaGestionDocumentaria.BussinesLogic.pdb

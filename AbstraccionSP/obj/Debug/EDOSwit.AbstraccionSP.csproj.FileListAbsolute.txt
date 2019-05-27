@@ -1,0 +1,9 @@
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\AbstraccionSP\bin\Debug\EDOSwit.AbstraccionSP.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\AbstraccionSP\bin\Debug\EDOSwit.AbstraccionSP.pdb
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\AbstraccionSP\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\AbstraccionSP\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\AbstraccionSP\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\AbstraccionSP\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\AbstraccionSP\obj\Debug\EDOSwit.AbstraccionSP.csprojResolveAssemblyReference.cache
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\AbstraccionSP\obj\Debug\EDOSwit.AbstraccionSP.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\AbstraccionSP\obj\Debug\EDOSwit.AbstraccionSP.pdb

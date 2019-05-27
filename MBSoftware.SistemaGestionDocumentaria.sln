@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Layers", "1 - Layers", "{56FFB84B-3A83-4E76-BD55-AFE125F0566F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 Presentation", "1.1 Presentation", "{04DA0BF5-4E9F-4B70-A45C-8C932496B1B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 Bussines Logic", "1.2 Bussines Logic", "{67C32142-1E95-46C9-91EE-1986858A1856}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5 Repository", "1.5 Repository", "{8F551ED4-32CE-44C3-ACCD-F31164D6DA9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4 Common", "1.4 Common", "{E629F71D-C653-46C9-9E6B-D7EF0A4910F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 Entities", "1.3 Entities", "{A93AD699-D970-4AD1-8BA1-80E1F39C6373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDOSwit.AbstraccionSP", "AbstraccionSP\EDOSwit.AbstraccionSP.csproj", "{178CF7CE-CF7C-4E73-94EF-AB23E7E36ED4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{15E5B0A8-AA64-4886-818B-EEF61645B1C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP.NET MVC", "ASP.NET MVC", "{3E1E3CE7-8E3C-400D-85FA-4D45DA38EDBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBSoftware.SistemaGestionDocumentaria.BussinesLogic", "MBSoftware.SistemaGestionDocumentaria.BussinesLogic\MBSoftware.SistemaGestionDocumentaria.BussinesLogic.csproj", "{015391CC-E958-4EE9-AF00-D1FC9F0D347C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBSoftware.SistemaGestionDocumentaria.Entities", "MBSoftware.SistemaGestionDocumentaria.Entities\MBSoftware.SistemaGestionDocumentaria.Entities.csproj", "{B9F22254-D53C-409F-B43E-CC152545E602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBSoftware.SistemaGestionDocumentaria.Common", "MBSoftware.SistemaGestionDocumentaria.Common\MBSoftware.SistemaGestionDocumentaria.Common.csproj", "{E402F8B5-2020-4174-B836-CBB706700D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBSoftware.SistemaGestionDocumentaria.Repository", "MBSoftware.SistemaGestionDocumentaria.Repository\MBSoftware.SistemaGestionDocumentaria.Repository.csproj", "{827FB2D2-06FB-4556-A836-DDA294EFE223}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.6 Test", "1.6 Test", "{6214C95D-DD9A-467A-9ACB-CF6FA528FD5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBSoftware.SistemaGestionDocumentaria.Test", "MBSoftware.SistemaGestionDocumentaria.Test\MBSoftware.SistemaGestionDocumentaria.Test.csproj", "{462FAD7D-152F-4D66-95C1-B442787DD998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBSoftware.SistemaGestionDocumentaria.WebApplication", "MBSoftware.SistemaGestionDocumentaria.WebApplication\MBSoftware.SistemaGestionDocumentaria.WebApplication.csproj", "{8EDF0BC0-1847-43E9-A63F-E662919C3F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Database", "2 - Database", "{34ED7061-6479-4C42-AF63-4EF2D363AE74}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MBSoftware.SistemaGestionDocumentaria.DataBase", "MBSoftware.SistemaGestionDocumentaria.DataBase\MBSoftware.SistemaGestionDocumentaria.DataBase.sqlproj", "{1979DE9F-2A64-4B64-9C01-1E7F470EE975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{178CF7CE-CF7C-4E73-94EF-AB23E7E36ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178CF7CE-CF7C-4E73-94EF-AB23E7E36ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178CF7CE-CF7C-4E73-94EF-AB23E7E36ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178CF7CE-CF7C-4E73-94EF-AB23E7E36ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015391CC-E958-4EE9-AF00-D1FC9F0D347C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015391CC-E958-4EE9-AF00-D1FC9F0D347C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015391CC-E958-4EE9-AF00-D1FC9F0D347C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015391CC-E958-4EE9-AF00-D1FC9F0D347C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F22254-D53C-409F-B43E-CC152545E602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F22254-D53C-409F-B43E-CC152545E602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F22254-D53C-409F-B43E-CC152545E602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F22254-D53C-409F-B43E-CC152545E602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E402F8B5-2020-4174-B836-CBB706700D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E402F8B5-2020-4174-B836-CBB706700D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E402F8B5-2020-4174-B836-CBB706700D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E402F8B5-2020-4174-B836-CBB706700D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827FB2D2-06FB-4556-A836-DDA294EFE223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827FB2D2-06FB-4556-A836-DDA294EFE223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827FB2D2-06FB-4556-A836-DDA294EFE223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827FB2D2-06FB-4556-A836-DDA294EFE223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462FAD7D-152F-4D66-95C1-B442787DD998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462FAD7D-152F-4D66-95C1-B442787DD998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462FAD7D-152F-4D66-95C1-B442787DD998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462FAD7D-152F-4D66-95C1-B442787DD998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF0BC0-1847-43E9-A63F-E662919C3F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF0BC0-1847-43E9-A63F-E662919C3F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF0BC0-1847-43E9-A63F-E662919C3F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF0BC0-1847-43E9-A63F-E662919C3F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1979DE9F-2A64-4B64-9C01-1E7F470EE975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1979DE9F-2A64-4B64-9C01-1E7F470EE975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1979DE9F-2A64-4B64-9C01-1E7F470EE975}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1979DE9F-2A64-4B64-9C01-1E7F470EE975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1979DE9F-2A64-4B64-9C01-1E7F470EE975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1979DE9F-2A64-4B64-9C01-1E7F470EE975}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04DA0BF5-4E9F-4B70-A45C-8C932496B1B8} = {56FFB84B-3A83-4E76-BD55-AFE125F0566F}
+		{67C32142-1E95-46C9-91EE-1986858A1856} = {56FFB84B-3A83-4E76-BD55-AFE125F0566F}
+		{8F551ED4-32CE-44C3-ACCD-F31164D6DA9C} = {56FFB84B-3A83-4E76-BD55-AFE125F0566F}
+		{E629F71D-C653-46C9-9E6B-D7EF0A4910F1} = {56FFB84B-3A83-4E76-BD55-AFE125F0566F}
+		{A93AD699-D970-4AD1-8BA1-80E1F39C6373} = {56FFB84B-3A83-4E76-BD55-AFE125F0566F}
+		{6214C95D-DD9A-467A-9ACB-CF6FA528FD5A} = {56FFB84B-3A83-4E76-BD55-AFE125F0566F}
+		{15E5B0A8-AA64-4886-818B-EEF61645B1C4} = {04DA0BF5-4E9F-4B70-A45C-8C932496B1B8}
+		{015391CC-E958-4EE9-AF00-D1FC9F0D347C} = {67C32142-1E95-46C9-91EE-1986858A1856}
+		{178CF7CE-CF7C-4E73-94EF-AB23E7E36ED4} = {8F551ED4-32CE-44C3-ACCD-F31164D6DA9C}
+		{827FB2D2-06FB-4556-A836-DDA294EFE223} = {8F551ED4-32CE-44C3-ACCD-F31164D6DA9C}
+		{E402F8B5-2020-4174-B836-CBB706700D3C} = {E629F71D-C653-46C9-9E6B-D7EF0A4910F1}
+		{B9F22254-D53C-409F-B43E-CC152545E602} = {A93AD699-D970-4AD1-8BA1-80E1F39C6373}
+		{3E1E3CE7-8E3C-400D-85FA-4D45DA38EDBD} = {15E5B0A8-AA64-4886-818B-EEF61645B1C4}
+		{8EDF0BC0-1847-43E9-A63F-E662919C3F5E} = {3E1E3CE7-8E3C-400D-85FA-4D45DA38EDBD}
+		{462FAD7D-152F-4D66-95C1-B442787DD998} = {6214C95D-DD9A-467A-9ACB-CF6FA528FD5A}
+		{1979DE9F-2A64-4B64-9C01-1E7F470EE975} = {34ED7061-6479-4C42-AF63-4EF2D363AE74}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

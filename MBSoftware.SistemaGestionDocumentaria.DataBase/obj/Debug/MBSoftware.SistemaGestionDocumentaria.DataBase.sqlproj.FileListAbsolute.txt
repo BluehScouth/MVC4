@@ -1,0 +1,9 @@
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.DataBase\bin\Debug\MBSoftware.SistemaGestionDocumentaria.DataBase.dacpac
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.DataBase\bin\Debug\MBSoftware.SistemaGestionDocumentaria.DataBase.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.DataBase\bin\Debug\MBSoftware.SistemaGestionDocumentaria.DataBase.pdb
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.DataBase\obj\Debug\MBSoftware.SistemaGestionDocumentaria.DataBase.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.DataBase\obj\Debug\MBSoftware.SistemaGestionDocumentaria.DataBase.pdb
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.DataBase\obj\Debug\Model.xml
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.DataBase\obj\Debug\refactor.xml
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.DataBase\obj\Debug\postdeploy.sql
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.DataBase\obj\Debug\predeploy.sql

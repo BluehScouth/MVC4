@@ -1,0 +1,46 @@
+﻿** Warnings
+     Procedure: [dbo].[Usp_select_ParametroValor] has an unresolved reference to object [dbo].[sp_executesql].
+     The object reference [Dbo] differs only by case from the object definition [dbo].
+     The object reference [dbo].[PARAMETROSECCION] differs only by case from the object definition [Dbo].[ParametroSeccion].
+     The object reference [dbo].[PARAMETROSECCION].[NOMBRE] differs only by case from the object definition
+       [Dbo].[ParametroSeccion].[Nombre].
+     The object reference [dbo].[PARAMETROSECCION].[CODIGOPARAMETRO] differs only by case from the object definition
+       [Dbo].[ParametroSeccion].[CodigoParametro].
+     The object reference [dbo].[PARAMETROSECCION].[ESTADOREGISTRO] differs only by case from the object definition
+       [Dbo].[ParametroSeccion].[EstadoRegistro].
+     The object reference [dbo].[Usp_select_ParametroValor].[@ESTADOREGISTRO] differs only by case from the object definition
+       [dbo].[Usp_select_ParametroValor].[@EstadoRegistro].
+
+** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Cliente] (Table)
+       [dbo].[Log] (Table)
+       [dbo].[Parametro] (Table)
+       [Dbo].[ParametroSeccion] (Table)
+       [dbo].[ParametroValor] (Table)
+       Default Constraint on [dbo].[Cliente].[EstadoRegistro] (Default Constraint)
+       Default Constraint on [dbo].[Cliente].[FechaCreacion] (Default Constraint)
+       Default Constraint on [dbo].[Parametro].[EstadoRegistro] (Default Constraint)
+       Default Constraint on [dbo].[Parametro].[FechaCreacion] (Default Constraint)
+       Default Constraint on [Dbo].[ParametroSeccion].[EstadoRegistro] (Default Constraint)
+       Default Constraint on [Dbo].[ParametroSeccion].[FechaCreacion] (Default Constraint)
+       Default Constraint on [dbo].[ParametroValor].[EstadoRegistro] (Default Constraint)
+       Default Constraint on [dbo].[ParametroValor].[FechaCreacion] (Default Constraint)
+       Foreign Key on [Dbo].[ParametroSeccion].[CodigoParametro] (Foreign Key)
+       [dbo].[Usp_insert_cliente] (Procedure)
+       [dbo].[Usp_select_cliente] (Procedure)
+       [dbo].[Usp_select_ParametroValor] (Procedure)
+       [dbo].[Usp_single_cliente] (Procedure)
+       [dbo].[Usp_update_cliente] (Procedure)
+
+** Supporting actions

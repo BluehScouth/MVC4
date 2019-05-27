@@ -1,0 +1,179 @@
+﻿@{
+    ViewBag.Title = "BasicFroms";
+}
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Cliente</h2>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="@Url.Action("Index", "Cliente")">SGD+</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a>Cliente</a>
+            </li>
+            <li class="active breadcrumb-item">
+                <strong>Mantenimiento</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+    </div>
+</div>
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>Ficha de clientes </h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li>
+                                <a href="#" class="dropdown-item">Config option 1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">Config option 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <form id="frmFichaCliente" method="post">
+
+                        <div class="form-group  row">
+                            <label class="col-sm-2 col-form-label">ClienteId</label>
+
+                            <div class="col-sm-10">
+                                <input id="txtClienteId" type="text" class="form-control" readonly="readonly" />
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group  row">
+                            <label class="col-sm-2 col-form-label">Nombre</label>
+
+                            <div class="col-sm-10">
+                                <input id="txtNombre" type="text" class="form-control" required="required">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group  row">
+                            <label class="col-sm-2 col-form-label">Apellidos</label>
+
+                            <div class="col-sm-10">
+                                <input id="txtApellido" type="text" class="form-control" required="required">
+                            </div>
+                        </div>
+                         <div class="hr-line-dashed"></div>
+                        <div class="form-group  row">
+                            <label class="col-sm-2 col-form-label">Pais</label>
+
+                            <div class="col-sm-10">
+                               <select id="cboPais" class="select2_demo_3 form-control">
+                                    </select>
+                            </div>
+                        </div>
+                         <div class="hr-line-dashed"></div>
+                        <div class="form-group  row">
+                            <label class="col-sm-2 col-form-label">Documento</label>
+
+                            <div class="col-sm-10">
+                                <select id="cboTipoDocumento" class="select2_demo_1 form-control">
+                                    </select>
+                            </div>
+                        </div>
+                         <div class="hr-line-dashed"></div>
+                        <div class="form-group  row">
+                            <label class="col-sm-2 col-form-label">Número Documento</label>
+
+                            <div class="col-sm-10">
+                                <input id="txtNumeroDocumento" type="text" class="form-control" required="required">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group  row">
+                            <label class="col-sm-2 col-form-label">Email</label>
+
+                            <div class="col-sm-10">
+                                <input id="txtEmail" type="text" class="form-control" required="required">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group  row">
+                            <label class="col-sm-2 col-form-label">Telefono</label>
+
+                            <div class="col-sm-10">
+                                <input id="txtTelefono" type="text" class="form-control" required="required">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group  row">
+                            <label class="col-sm-2 col-form-label">Dirección</label>
+
+                            <div class="col-sm-10">
+                                <input id="txtDireccion" type="text" class="form-control" required="required">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group row">
+                            <div class="col-sm-4 col-sm-offset-2">
+                                <button class="btn btn-white btn-sm" onclick="goBack()" >Cancelar</button>                                                               
+                                 <button id="btnGuardar" class="btn btn-primary btn-sm" type="submit">Guardar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    @Styles.Render("~/plugins/toastrStyles")
+  @Styles.Render("~/plugins/select2Styles")
+}
+
+@section Scripts {
+    
+    @Scripts.Render("~/plugins/toastr")
+    @Scripts.Render("~/controller/mantenimiento")
+  @Scripts.Render("~/plugins/select2")
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var parametros = [
+                 { key: "Pais", idParametro: constantesModule.Constantes.parametroPais },
+                     { key: "TipoDocumento", idParametro: constantesModule.Constantes.parametroTipoDocumento }];
+
+            clienteModule.ClienteMaestros(parametros);
+            clienteModule.ClienteView(@ViewBag.clienteId);
+            $("#frmFichaCliente").submit(function (e) {
+                e.preventDefault();
+                clienteModule.ClienteMantener(e.target);
+            });
+   
+            $(".select2_demo_1").select2();
+            $(".select2_demo_2").select2();
+            $(".select2_demo_3").select2({
+                placeholder: "Seleccione un País.",
+                allowClear: true
+            });
+
+
+        });
+
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+}
+
+

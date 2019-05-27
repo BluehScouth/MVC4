@@ -1,0 +1,5 @@
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.Common\bin\Debug\MBSoftware.SistemaGestionDocumentaria.Common.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.Common\bin\Debug\MBSoftware.SistemaGestionDocumentaria.Common.pdb
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.Common\obj\Debug\MBSoftware.SistemaGestionDocumentaria.Common.csprojResolveAssemblyReference.cache
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.Common\obj\Debug\MBSoftware.SistemaGestionDocumentaria.Common.dll
+C:\Users\ccolumbus\Desktop\Proyect\MBSoftware.SistemaGestionDocumentaria\MBSoftware.SistemaGestionDocumentaria.Common\obj\Debug\MBSoftware.SistemaGestionDocumentaria.Common.pdb
